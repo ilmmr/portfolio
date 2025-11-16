@@ -54,30 +54,7 @@ export const info = {
     activities1: "In my spare time, I usually try to keep both my mind and body occupied. I regularly exercise, where any sport is welcomed. I also enjoy reading, from the basics of Computer Science to Philosophy.",
     activities2: "Additionally, to build a so-called online portfolio, I usually try to keep my network updated on LinkedIn. I also created a 5-minute weekly podcast, where I share the beauty of knowing nothing.",    
     activities3: "Additionally, I also write on a blog about books I have read, along with some brief notes.",
-    programming: "I am very versatile when it comes to programming languages. During my academic years, I have experienced multiple programming paradigms: From functional and declarative to imperative and object oriented.",
-    programming1: "However, the languages that I am most familiar with are:",
-    programmingl:
-    [
-        '⮕ python, haskell, javascript, java, and C'
-    ],
-    interests: [
-        {
-            label: 'Formal Methods',
-            emoji: '⮕'
-        },
-        {
-            label: 'Artificial Inteligence',
-            emoji: '⮕'
-        },
-        {
-            label: 'Computation Theory',
-            emoji: '⮕'
-        },
-        {
-            label: 'Philosophy',
-            emoji: '⮕'
-        }
-// Same as above, change the emojis to match / relate to your hobbies or interests.
-// You can also remove the emojis if you'd like, I just think they look cute :P
-    ]
+    experience1: "I began my career with an internship at HydraIT, where I worked on consulting and development using Microsoft’s ERP systems.",
+    experience2: "During my master’s, I joined INESC TEC as a researcher, where I focused on model checking and the correctness of distributed systems. My experience with Formal Methods made a real difference and greatly enhanced the quality of my work.",
+    experience3: "Since 2023, I have been working at Bosch as a Software Engineer and Architect, contributing to the development of the next-generation airbag platform. My work is currently focused on software configuration, where I am both the process and method responsible. I am also a proccess proxy and trainer for the software modelling methods."
 }
