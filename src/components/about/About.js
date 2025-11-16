@@ -102,8 +102,9 @@ export default function About() {
               className={Style.green}></span> $</span> cat about</p>
           <div style={{fontSize: "1rem"}}>
           <p>Greetings  <Box className={Style.wave}>👋</Box></p>
-            <p>{info.bio3} {info.bio1}</p>
+            <p>{info.bio1}</p>
             <p>{info.bio2}</p>
+            <p>{info.bio3}</p>
             <p style={{textAlign:"center", fontStyle:"italic", color:"#777777"}}>&#34;Beauty is our business.&#34;</p>
           </div>
       </>;
