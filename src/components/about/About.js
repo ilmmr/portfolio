@@ -70,16 +70,15 @@ export default function About() {
         </>;
     }
 
-    function miscText() {
+    function experience() {
         return <>
-            <p><span style={{color: info.baseColor}}>{nickname} $</span> cd interests</p>
+            <p><span style={{color: info.baseColor}}>{nickname} $</span> cd experience</p>
             <p><span style={{color: info.baseColor}}>interests <span
-                className={Style.green}></span> $</span> ls</p>
-            <ul style={{fontSize: "1rem"}}>
-                {info.interests.map((hobby, index) => (
-                    <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
-                ))}
-            </ul>
+                className={Style.green}></span> $</span> cat experience</p>
+            <div style={{fontSize: "1rem"}}>
+            <p>{info.experience1}</p>
+            <p>{info.experience2}</p>
+            <p>{info.experience3}</p>
         </>;
     }
 
@@ -121,7 +120,7 @@ export default function About() {
             <Typography textAlign="center">{info.short1}</Typography>
             <Box display={'flex'} className={Style.terminals} justifyContent={'center'} alignItems={'center'} mt={'3rem'}>
                 <Terminal text={aboutMe()}/>
-                <Terminal text={activities()}/>
+                <Terminal text={experience()}/>
             </Box>
         </div>
     )
