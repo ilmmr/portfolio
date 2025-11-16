@@ -117,7 +117,6 @@ export default function About() {
                 <a href="#home"><span></span></a>
             </ArrowU>
             <br></br><br></br>
-            <h2>{info.intro}</h2>
             <Typography textAlign="center">{info.short}</Typography>
             <Typography textAlign="center">{info.short1}</Typography>
             <Box display={'flex'} className={Style.terminals} justifyContent={'center'} alignItems={'center'} mt={'3rem'}>
