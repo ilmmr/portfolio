@@ -56,5 +56,5 @@ export const info = {
     activities3: "Additionally, I also write on a blog about books I have read, along with some brief notes.",
     experience1: "I began my career with an internship at HydraIT, where I worked on consulting and development using Microsoft’s ERP systems.",
     experience2: "During my master’s, I joined INESC TEC as a researcher, where I focused on model checking and the correctness of distributed systems. My experience with Formal Methods made a real difference and greatly enhanced the quality of my work.",
-    experience3: "Since 2023, I have been working at Bosch as a Software Engineer and Architect, contributing to the development of the next-generation airbag platform. My work is currently focused on software configuration, where I am both the process and method responsible. I am also a proccess proxy and trainer for the software modelling methods."
+    experience3: "Since 2023, I have been working at Bosch as a Software Engineer and Architect, contributing to the development of the next-generation airbag platform. My work is currently focused on software configuration, where I am both the process and method responsible. I am also a process proxy and trainer for the software modelling methods."
 }
