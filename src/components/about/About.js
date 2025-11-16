@@ -56,29 +56,16 @@ a span {
 export default function About() {
     const nickname  = info.nickname.toLowerCase()
 
-    function skillsText() {
-        return <>
-            <p><span style={{color: info.baseColor}}>{nickname} $</span> cd programming
-            </p>
-            <p><span style={{color: info.baseColor}}>programming <span
-                className={Style.green}></span> $</span> cat languages</p>
-            <div style={{fontSize: "1rem"}}>
-              <p>{info.programming}</p>
-              <p>{info.programming1}</p>
-              <p>{info.programmingl}</p>
-            </div>
-        </>;
-    }
-
     function experience() {
         return <>
             <p><span style={{color: info.baseColor}}>{nickname} $</span> cd experience</p>
             <p><span style={{color: info.baseColor}}>interests <span
                 className={Style.green}></span> $</span> cat experience</p>
             <div style={{fontSize: "1rem"}}>
-            <p>{info.experience1}</p>
-            <p>{info.experience2}</p>
-            <p>{info.experience3}</p>
+               <p>{info.experience1}</p>
+               <p>{info.experience2}</p>
+               <p>{info.experience3}</p>
+            </div>
         </>;
     }
 
