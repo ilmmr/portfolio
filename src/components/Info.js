@@ -31,7 +31,7 @@ export const info = {
     socials: [
         {
             link: "./CurriculumVitae.pdf",
-            icon: "fa fa-file-pdf-o",
+            icon: "fa fa-file-o",
             label: 'cv'
         },
         {
