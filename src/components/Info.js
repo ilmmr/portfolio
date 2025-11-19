@@ -30,11 +30,6 @@ export const info = {
     quote2: "&#34;Beauty is our business&#34;",
     socials: [
         {
-            link: "./CurriculumVitae.pdf",
-            icon: "fa fa-file-o",
-            label: 'cv'
-        },
-        {
             link: "https://github.com/ilmmr/",
             icon: "fa fa-github",
             label: 'github'
