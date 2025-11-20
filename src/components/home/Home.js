@@ -1,7 +1,8 @@
 import React from 'react';
 import Style from './Home.module.scss';
-import me from "./self.png";
-import CV from "./CurriculumVitae.pdf"
+import me from "./.bin/self.png";
+import cv1 from "./.bin/lmmr_cv.pdf"
+import cv2 from "./.bin/lmmr_cv_beautify.pdf"
 import classNames from 'classnames';
 import {Box, Stack, Typography} from "@mui/material";
 import {info} from "./../Info";
@@ -72,7 +73,7 @@ export default function Home({darkMode}) {
          <h1>{info.position}</h1>
          <Typography fontStyle="italic" color="#777777">&#34;Coding is to programming what typing is to writing.&#34;</Typography>
          <Box component={'div'} display={'flex'} gap={'1.5rem'} justifyContent={'center'} fontSize='2rem'>
-              <SocialIcon link={CV} icon="fa fa-file-o" label="cv" /> 
+              <SocialIcon link={cv2} icon="fa fa-file-o" label="cv" /> 
               {info.socials.map((social, index) => (
                   <SocialIcon link={social.link} icon={social.icon} label={social.label} />
                ))}
